@@ -4369,6 +4369,7 @@ body {
     #side-header .fusion-mobile-logo-1 .fusion-standard-logo,
     .fusion-mobile-logo-1 .fusion-standard-logo {
         display: none;
+        height: 105px;
     }
     #side-header .fusion-mobile-logo,
     .fusion-mobile-logo {
@@ -17257,7 +17258,7 @@ ul.fusion-checklist .circle-yes {
     box-sizing: border-box;
 }
 .fusion-counters-box .fusion-counter-box .counter-box-container {
-    padding: 20px;
+    padding: 5px;
 }
 .fusion-counters-box .fusion-counter-box .counter-box-border {
     border: 1px solid #e5e4e3;
@@ -26587,8 +26588,8 @@ body:not(.avada-image-rollover-direction-left) .fusion-rollover .fusion-rollover
     .fusion-mobile-menu-design-modern.fusion-header-v4 .fusion-header,
     .fusion-mobile-menu-design-modern.fusion-header-v5 .fusion-header,
     .fusion-mobile-menu-design-modern.fusion-header-v7 .fusion-header {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header .fusion-row,
     .fusion-mobile-menu-design-modern.fusion-header-v2 .fusion-header .fusion-row,
