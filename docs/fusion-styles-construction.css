@@ -3043,8 +3043,8 @@ article.fusion-portfolio-post.post.fusion-col-spacing {
 }
 .fusion-body .fusion-carousel .fusion-carousel-nav .fusion-nav-next,
 .fusion-body .fusion-carousel .fusion-carousel-nav .fusion-nav-prev {
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
     margin-top: calc((30px) / -2);
 }
 .fusion-body .fusion-carousel .fusion-carousel-nav .fusion-nav-next:before,
@@ -19142,13 +19142,12 @@ html[xmlns] .flexslider .slides {
     left: 0;
 }
 .fusion-carousel .fusion-carousel-nav .fusion-nav-prev:before {
-    content: "\f104";
 }
 .fusion-carousel .fusion-carousel-nav .fusion-nav-next {
     right: 0 !important;
 }
 .fusion-carousel .fusion-carousel-nav .fusion-nav-next:before {
-    content: "\f105";
+    
 }
 .fusion-carousel-title-below-image .fusion-carousel-meta,
 .fusion-carousel-title-below-image .fusion-carousel-title {
