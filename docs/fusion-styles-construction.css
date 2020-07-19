@@ -27353,6 +27353,7 @@ body:not(.avada-image-rollover-direction-left) .fusion-rollover .fusion-rollover
         bottom: 30px;
         border-radius: 4px;
         height: 40px;
+        display: none !importent;
     }
     #toTop:before {
         line-height: 38px;
@@ -29237,6 +29238,7 @@ span.menu-text.fusion-button.button-default.button-large {
 }
 .to-top-right #toTop {
     right: 26px;
+    display: none !important;
 }
 .fusion-text.captionport h3 {
     margin: 0;
