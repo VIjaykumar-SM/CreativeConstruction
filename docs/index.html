@@ -21,9 +21,9 @@
 <!-- / Yoast SEO plugin. -->
 
 <link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="Creativve Constructions &raquo; Feed" href="https://creativveconstructiions.com/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Creativve Constructions &raquo; Comments Feed" href="https://creativveconstructiions.com/comments/feed/" />
-					<link rel="shortcut icon" href="" type="image/x-icon" />
+<link rel="alternate" type="application/rss+xml" title="Creativve Constructiions &raquo; Feed" href="https://creativveconstructiions.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Creativve Constructiions &raquo; Comments Feed" href="https://creativveconstructiions.com/comments/feed/" />
+					<link rel="shortcut icon" href="https://creativveconstructiions.com/wp-content/uploads/2019/11/favicon.png" type="image/x-icon" />
 		
 		
 		
@@ -464,12 +464,60 @@ Safety will always come first as we strive for accident-free projects.</p>
 				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3 fusion-builder-column-35 fusion-one-third fusion-column-last 1_3"  style='margin-top:0px;margin-bottom:0px;width:33.33%;width:calc(33.33% - ( ( 50px ) * 0.3333 ) );'>
 					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"   data-bg-url="">
 						<div class="fusion-column-content-centered"><div class="fusion-column-content"><div class="fusion-button-wrapper fusion-alignleft">
-							<a class="fusion-button button-flat button-xlarge button-custom button-6 fusion-button-default-span fusion-button-default-type" target="_self" style="background-color: #c44332;"><span class="fusion-button-text">Enquire now</span></a></div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:10px;"></div></div></div><div class="fusion-clearfix"></div>
+							<a class="fusion-button button-flat button-xlarge button-custom button-6 fusion-button-default-span fusion-button-default-type" target="_self" style="background-color: #c44332;" id ="enquire-button-id"><span class="fusion-button-text">Enquire now</span></a></div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:10px;"></div></div></div><div class="fusion-clearfix"></div>
 
 					</div>
 				</div></div></div>
 							</div>
 												</div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h3 class="modal-title" id="exampleModalLongTitle">Please enter your details</h3>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="row">
+			<div class="modal-body">
+							<form method="POST" data-email="example@email.net" data-number="9164852699"
+						action="https://script.google.com/macros/s/AKfycbwBNlfgf-Wpc_PKPxcPsSJSFR0NS22iClCSJnDkNe30zHNk700/exec">
+				<div class="form-group">
+					<label for="name">Name: </label>
+					<input class="form-control"  name="name" placeholder="Name" />
+				</div>
+				<div class="form-group">
+					<label for="number"><em>Your</em> Phone number:</label>
+								<input class="form-control"  name="phone" type="phone" value=""
+								required placeholder="+91"/>
+								<span class="number-invalid" style="display:none">
+								Invalid.</span>
+				</div>
+				<div class="form-group">
+				<label for="email"><em>Your</em> Email Address:</label>
+								<input class="form-control"  name="email" type="email" value=""
+								required placeholder="your.name@email.com"/>
+								<span class="email-invalid" style="display:none">
+								Must be a valid email address</span>
+								
+				</div>
+				<button type="submit" class="btn btn-default">Send</button>
+				<!-- Customise the Thankyou Message People See when they submit the form: -->
+							<div class="thankyou_message" style="display:none;">
+							<h2><em>Thanks</em> for contacting us!
+								We will get back to you soon!</h2>
+							</div>
+				</form>
+			
+			</div>
+		
+</div>
+	  </div>
+	</div>
+  </div>
 	</section>
 						
 					</div>  <!-- fusion-row -->
@@ -547,7 +595,7 @@ Safety will always come first as we strive for accident-free projects.</p>
 				<span style="height:23.8px;width:23.8px;margin-right:9.8px;" class="icon-wrapper circle-no">
 				  <i class="fusion-li-icon glyphicon glyphicon-earphone" style="color:#717171;"></i></span>
 				  <div class="fusion-li-item-content" style="margin-left:33.6px;">
-					  <a style="padding: 0;border-bottom: none; color: #961605ea;" href="tel:+919822751216">+91 9008606606</a>
+					  <a style="padding: 0;border-bottom: none; color: #961605ea;" href="tel:+919008606606">+91 9008606606</a>
 				  </div></li>
 			 <!-- <li class="fusion-li-item">
 				<i class="fusion-li-icon glyphicon glyphicon-earphone" style="color:#717171;"></i>
@@ -570,7 +618,7 @@ Safety will always come first as we strive for accident-free projects.</p>
 						<i class="fusion-li-icon glyphicon glyphicon-envelope" style="color:#717171;"></i>
 					</span>
 					<div class="fusion-li-item-content" style="margin-left:33.6px;">
-						<a href="mailto:info@creativveconstructiions.com" style="color: #961605ea;">info@creativeconstructions.co.in</a>
+						<a href="info@creativeconstructions.co.in" style="color: #961605ea;">info@creativeconstructions.co.in</a>
 					</div></li>
 			   </ul>
 		
@@ -842,7 +890,7 @@ var avadaSidebarsVars = {"header_position":"top","header_layout":"v1","header_st
 var toTopscreenReaderText = {"label":"Go to Top"};
 /* ]]> */
 </script>
-<!-- <script type='text/javascript' src='https://creativveconstructiions.com/wp-content/themes/Avada/assets/min/js/library/jquery.toTop.js?ver=1.2'></script> -->
+<script type='text/javascript' src='https://creativveconstructiions.com/wp-content/themes/Avada/assets/min/js/library/jquery.toTop.js?ver=1.2'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var avadaToTopVars = {"status_totop":"desktop_and_mobile","totop_position":"right","totop_scroll_down_only":"0"};
@@ -888,6 +936,9 @@ var avadaFusionSliderVars = {"side_header_break_point":"1100","slider_position":
 				
 				jQuery(document).ready(function(){
 				setTimeout(toggleMute,3000);
+				jQuery("#enquire-button-id").click(function(){
+					jQuery("#exampleModalCenter").modal("toggle");
+				});
 				})
 
 				jQuery( document ).ready( function() {
@@ -901,6 +952,24 @@ var avadaFusionSliderVars = {"side_header_break_point":"1100","slider_position":
 				
 				</script>
 				<style>
+					#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+.modal {
+    top: 150px !important;
+}
+
+.modal-body {
+    padding: 30px !important;
+}
 .icons8-facebook-old { 
 display: inline-block;
 width: 48px;
