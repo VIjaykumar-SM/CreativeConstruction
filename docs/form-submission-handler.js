@@ -90,9 +90,11 @@
           if (formElements) {
             formElements.style.display = "none"; // hide form
           }
-          var thankYouMessage = jQuery(".thankyou_message");
+          var thankYouMessage = form.querySelector(".thankyou_message");
           if (thankYouMessage) {
+            jQuery(".custom_class_divhide").hide();
             thankYouMessage.style.display = "block";
+           
           }
           return;
       };
